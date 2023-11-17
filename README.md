@@ -14,7 +14,7 @@
 
 <h2>Changing Status :</h2>
 <p>By clicking the completed button we can move the task to the completed list.</p>
-<p>By clicking the Incomplete button we can move the task to the Incomplete list.</p>
+<p>By clicking the Incompleted button we can move the task to the Incompleted list.</p>
 
 ![Screenshot (265)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/39e177d2-c005-4087-afce-b88889a8e559)
 
