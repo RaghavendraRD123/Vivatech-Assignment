@@ -28,14 +28,13 @@
 
 ![Screenshot (267)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/394b7e48-f388-43d4-b5cd-98b950b2a9e7)
 
-<h2>Delete task :</h2>
-<p>Deleting a task by clicking the "Delete" button.</p>
-<p>Here we have deleted the task "Rugby" from the incomplete list.</p>
+
 
 ![Screenshot (268)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/5704c1f3-d345-47bd-96a0-d44d2e2ef757)
 
-<h2> :</h2>
-<p></p>
+<h2>Delete task :</h2>
+<p>Deleting a task by clicking the "Delete" button.</p>
+<p>Here we have deleted the task "Rugby" from the incomplete list.</p>
 
 ![Screenshot (269)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/faa238ec-dadb-488f-8888-226876218ffe)
 
