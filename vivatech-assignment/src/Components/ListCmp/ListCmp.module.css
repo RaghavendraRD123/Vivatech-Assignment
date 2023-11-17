@@ -1,0 +1,13 @@
+.main{
+    margin: auto;
+    margin-top: 30px;
+    border: 3px solid ;
+    max-width: 1328px;
+}
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont > * { 
+    margin: 10px;
+}

@@ -1,0 +1,39 @@
+#main {
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#cont1{
+    display: flex;
+    justify-content: space-between;
+}
+#cont1 > button{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:  #0000ffb3;
+    color: white;
+}
+.update{
+    border: 2px solid;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.update > button {
+    margin-top: 20px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #0000ffb3;
+}
+
+@media screen and (max-width:400px) {
+    #cont1 > button{
+        font-size: 14px;
+    }
+}
