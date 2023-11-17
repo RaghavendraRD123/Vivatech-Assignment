@@ -33,7 +33,7 @@
 
 ![Screenshot (269)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/faa238ec-dadb-488f-8888-226876218ffe)
 
-<p>Here we have deleted the task "Rugby" from the incomplete list.</p>
+<p>Here we have deleted the task "Rugby" from the incompleted list.</p>
 
 ![Screenshot (270)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/bbd8319e-ee49-4ffd-8d2b-3a3c491b5189)
 
