@@ -1,11 +1,17 @@
+/*
+TaskCard component : 
+use to display the dettails of a particular task 
+*/
+
 import { useState } from "react";
 import { Store } from "../Redux/Store";
 import styles from './TaskCard.module.css';
 
 const TaskCard = ({index,name,status}) => {
     const [show,setShow] = useState(false);
-    const [newName,setNewName] = useState(name)
+    const [newName,setNewName] = useState(name);
 
+    // to change the status of a particular task :
     const handleStatus = () => {
         Store.dispatch({
             type : "update-status",
@@ -14,11 +20,14 @@ const TaskCard = ({index,name,status}) => {
             }
         })
     }
+
+    // to handle update for a task :
     const handleChange = (e) => {
         const value = e.target.value;
         setNewName(value);
     }
 
+    // to update a particular task :
     const handleUpdate = (e) => {
         Store.dispatch({
             type : "update-task",
@@ -28,6 +37,7 @@ const TaskCard = ({index,name,status}) => {
         })
     }
 
+    // to delete a particular task :
     const handleDelete = () => {
         Store.dispatch({
             type : "delete-task",

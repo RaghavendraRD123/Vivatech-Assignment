@@ -24,10 +24,13 @@ const newDataFn = (data) => {
 
 function App() {
   const [data,setData] = useState(Store.getState());
+
+  // getting the data from Store
   Store.subscribe(()=>{
     setData(Store.getState())
   })
 
+  // Export the entire list to Excel 
   const handleOnExport = () => {
     let new_data = newDataFn(data);
     
@@ -39,11 +42,19 @@ function App() {
 
     XLSX.writeFile(wb,"myExcel.xlsx")
   }
+
   return (
     <div className="App">
+      
+      {/* CreateTask : used to create a new task */}
       <CreateTask />
+
       <button className={"button"} onClick={handleOnExport}>Export to Excel</button>
+
+      {/* To show incomplete list :: */}
       <ListCmp arr={data.incomplete} status={false}/>
+
+      {/* To show complete list :: */}
       <ListCmp arr={data.complete} status={true}/>
     </div>
   );

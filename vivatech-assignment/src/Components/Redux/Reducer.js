@@ -1,4 +1,7 @@
-import { useState } from "react";
+/*
+Reducer function : 
+it will handle the changes in a store using switch-case
+ */
 
 const initialState = {
     incomplete : [],

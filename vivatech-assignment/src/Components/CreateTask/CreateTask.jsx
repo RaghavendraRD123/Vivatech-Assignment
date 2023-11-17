@@ -1,3 +1,9 @@
+/*
+    CreateTask component :
+    used to create a new tak for the list
+    initially the tasks will have the status as incomplete
+*/
+
 import { useState } from "react";
 import { Store } from "../Redux/Store";
 import styles from './CreateTask.module.css';
