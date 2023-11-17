@@ -1,2 +1,2 @@
 # Vivatech-Assignment
-<img src="https://github.com/RaghavendraRD123/Vivatech-Assignment/blob/main/vivatech-assignment/src/ScreenShots/Screenshot%20(263).png" alt="image" />
+![Screenshot (263)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/3e99e9f2-c8d0-4856-b12e-2901dfc3ba23)
