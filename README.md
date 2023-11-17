@@ -18,12 +18,12 @@
 
 ![Screenshot (265)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/39e177d2-c005-4087-afce-b88889a8e559)
 
-![Screenshot (267)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/394b7e48-f388-43d4-b5cd-98b950b2a9e7)
-
 <h2>Task update :</h2>
 <p>Updating a task using Update button.</p>
 
 ![Screenshot (266)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/d1065c1f-8782-40a1-b85b-4d2c9f6a8387)
+
+![Screenshot (267)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/394b7e48-f388-43d4-b5cd-98b950b2a9e7)
 
 <h2>Updated :</h2>
 <p>Updated task from "Sleep" to "Running".</p>
