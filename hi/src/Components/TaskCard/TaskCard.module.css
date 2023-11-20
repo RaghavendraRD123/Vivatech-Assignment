@@ -1,0 +1,52 @@
+#main {
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#cont1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#cont1 > div {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+#cont1  button ,.update > button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:  #0000ffb3;
+    color: white;
+}
+.update{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.update > *{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+.update * button {
+    margin-top: 40px;
+}
+.borderBox {
+    border: 2px solid;
+    padding: 10px;
+    background-color: #0000ff2e;
+}
+
+@media screen and (max-width:400px) {
+    #cont1 > button{
+        font-size: 14px;
+    }
+}
