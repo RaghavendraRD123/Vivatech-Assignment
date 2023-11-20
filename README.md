@@ -32,7 +32,7 @@
 ![Screenshot (283)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/73f5daae-1cce-4046-b3f3-803870058c74)
 
 <h2>6. List export : </h2>
-<p>Here we are exporting the 1st list to excel sheet format by clicking “Export to Excel” button.</p>
+<p>Here we are exporting the 3rd list to excel sheet format by clicking “Export to Excel” button.</p>
 
 ![Screenshot (284)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/2fda477c-d38b-424e-ba3f-f09b06e20688)
 
