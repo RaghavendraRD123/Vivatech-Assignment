@@ -19,7 +19,7 @@
 ![Screenshot (280)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/67b0ea88-d78f-4aae-bfff-51c0761b13d9)
 
 <h2>4. Update : </h2>
-<p>Here we are updating the task from "Sleeeping" to "Sleep" and the status to "Completed".</p>
+<p>Here we are updating the task from "sleeeping" to "sleep" and the status to "Completed".</p>
 
 ![Screenshot (281)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/440e3f38-92ad-4564-b058-13d5fe725483)
 
