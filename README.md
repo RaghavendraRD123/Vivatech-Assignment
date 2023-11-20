@@ -47,3 +47,31 @@
 ![Screenshot (272)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/f203d5fa-dffc-4bf1-bca4-8d28d9ebd2d6)
 
 
+
+![Screenshot (273)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/0d17a3ac-8b3c-445b-a0b7-6f359a2c49b6)
+
+![Screenshot (275)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/f6078b77-ab28-4de0-b128-e6c35da38d19)
+
+
+
+![Screenshot (277)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/75b21b84-f4e4-4d57-ab98-bd4d6c8b0ba7)
+
+
+![Screenshot (280)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/67b0ea88-d78f-4aae-bfff-51c0761b13d9)
+
+
+![Screenshot (281)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/440e3f38-92ad-4564-b058-13d5fe725483)
+
+
+![Screenshot (282)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/fc47bd23-3b59-4fc6-8d22-3fa438dcf939)
+
+
+![Screenshot (283)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/73f5daae-1cce-4046-b3f3-803870058c74)
+
+
+![Screenshot (284)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/2fda477c-d38b-424e-ba3f-f09b06e20688)
+
+![Screenshot (285)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/ddf073be-1fa5-4e01-9d5d-42049b2d6056)
+
+
+
