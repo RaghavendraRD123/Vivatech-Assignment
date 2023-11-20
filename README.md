@@ -19,7 +19,7 @@
 ![Screenshot (280)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/67b0ea88-d78f-4aae-bfff-51c0761b13d9)
 
 <h2>4. Update : </h2>
-<p>Here we are updating the task from "Sleeping" to "Sleep" and the status to "Completed".</p>
+<p>Here we are updating the task from "Sleeeping" to "Sleep" and the status to "Completed".</p>
 
 ![Screenshot (281)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/440e3f38-92ad-4564-b058-13d5fe725483)
 
@@ -27,7 +27,7 @@
 ![Screenshot (282)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/fc47bd23-3b59-4fc6-8d22-3fa438dcf939)
 
 <h2>5. Delete : </h2>
-<p>Here we have deleted the “Run” task by clicking the “Delete” button.</p>
+<p>Here we have deleted the “run” task by clicking the “Delete” button.</p>
 
 ![Screenshot (283)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/73f5daae-1cce-4046-b3f3-803870058c74)
 
