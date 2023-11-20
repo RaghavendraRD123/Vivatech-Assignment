@@ -47,6 +47,9 @@
 ![Screenshot (272)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/f203d5fa-dffc-4bf1-bca4-8d28d9ebd2d6)
 
 
+<h2>1. Creating a new list : </h2>
+<p>Creating a new list by clicking the "Create New List" button.</p>
+<p>We can create any number of lists.</p>
 
 ![Screenshot (273)](https://github.com/RaghavendraRD123/Vivatech-Assignment/assets/107551502/0d17a3ac-8b3c-445b-a0b7-6f359a2c49b6)
 
