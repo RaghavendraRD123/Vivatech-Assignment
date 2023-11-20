@@ -2,38 +2,36 @@
 TaskCard component : 
 use to display the dettails of a particular task 
 */
-
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Store } from "../Redux/Store";
 import styles from './TaskCard.module.css';
 
-const TaskCard = ({index,name,status}) => {
-    const [show,setShow] = useState(false);
-    const [newName,setNewName] = useState(name);
 
-    // to change the status of a particular task :
-    const handleStatus = () => {
-        Store.dispatch({
-            type : "update-status",
-            payload : {
-                index , status
-            }
-        })
-    }
+const TaskCard = ({arrCount,index,el,i }) => {
+    const {name ,status} = el;
+    const [show,setShow] = useState(false);
+    const [newTask,setNewTask] = useState(el);
+    const [moveTo,setMoveTo] = useState(1);
+    const green = (status == "completed") ? true : false;
 
     // to handle update for a task :
     const handleChange = (e) => {
-        const value = e.target.value;
-        setNewName(value);
+        const elValue = e.target.value;
+        const elName = e.target.name;
+        setNewTask(pre=>{
+            return {...pre,[elName] : elValue}
+        })
     }
 
     // to update a particular task :
     const handleUpdate = (e) => {
+        e.preventDefault();
+        console.log("updated:",newTask);
         Store.dispatch({
             type : "update-task",
-            payload : {
-                index , status , newName
-            }
+            payload : newTask,
+            index,
+            taskNo : i
         })
     }
 
@@ -41,41 +39,69 @@ const TaskCard = ({index,name,status}) => {
     const handleDelete = () => {
         Store.dispatch({
             type : "delete-task",
-            payload : {
-                index , status
-            }
+            index ,
+            taskNo : i
         })
     }
 
+    // to handle the value where we want to move our task
+    const handleMoveValue = (e) => {
+        setMoveTo(Number(e.target.value))
+    }
+
+    // moving the task to selected list number (moveTo)
+    const handleTaskMove = () => {
+        if((index+1) != moveTo && moveTo <= arrCount && moveTo>0){ 
+            Store.dispatch({
+                type : "move-task",
+                index ,
+                taskNo : i,
+
+                /* 
+                    the moving array/list index is going to be (moveTo - 1).
+                    because, array indexing stars from 0 
+                    & lists are stored here in array format
+                */
+                moveTo : moveTo-1
+            })
+        }else{
+            alert(`moving from list ${index+1} to ${moveTo} is impossible`);
+            return;
+        }
+    }
+
     return <div id={styles.main} style={{
-        border : status ? "2px solid green" : "2px solid red",
+        border : green ? "2px solid green" : "2px solid red",
+        backgroundColor : green ? "#0080001f" : "#ff00000d"
     }}>
-        <h1 style={{
-            color : status ? "green" : "red"
-        }}>{name}</h1>
-        <div id={styles.cont1}>
-            <button 
-                style={{
-                    backgroundColor : status ? "#ff0000cc" : "#008000cc"
-                }} 
-                onClick={handleStatus}
-            >{status ? "incompleted" : "completed"}</button>
-            <button 
-                onClick={()=>{
-                    setShow(pre=>!pre)}
-                }
-            >Update</button>
-            <button onClick={handleDelete}>Delete</button>
+        <div  style={{
+            color : green ? "green" : "red"
+        }}>
+            <h1>{name}</h1>
+            <h3>{status}</h3>
+        </div>
+        <div id={styles.cont1}>         
+            <div>
+                <button onClick={()=>{setShow(pre=>!pre)}} >Update</button>
+                <button onClick={handleDelete} >Delete</button>
+            </div>
+            <div className={styles.borderBox}>
+                <input type="number" value={moveTo} onChange={handleMoveValue} min={1} max={arrCount} />
+                <button onClick={handleTaskMove}>Move</button>
+            </div>
         </div>
         {
             show ?
-            <div className={styles.update}>
-                <div>
-                    <label>Name </label>
-                    <input onChange={handleChange} value={newName} type="text"/>
+            <form onSubmit={handleUpdate} >
+                <div className={styles.update}>
+                    <input name="name" value={newTask.name} onChange={handleChange} type="text" required />
+                    <select name="status" value={newTask.status} onChange={handleChange} >
+                        <option value={"completed"}>Completed</option>
+                        <option value={"incompleted"}>Incompleted</option>
+                    </select>
+                    <button type="submit">Update task</button>    
                 </div>
-                <button onClick={handleUpdate}>Submit</button>
-            </div>
+            </form>
             : null
         }
     </div>

@@ -4,29 +4,44 @@
     initially the tasks will have the status as incomplete
 */
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Store } from "../Redux/Store";
 import styles from './CreateTask.module.css';
 
-const CreateTask = () => {
-    const [newTask,setNewTask] = useState("");
+const initial = {
+    name : "" ,
+    status : "incompleted"
+}
 
+const CreateTask = ({index}) => {
+    const [newTask,setNewTask] = useState(initial);
     const handleSubmit = (e) => {
         e.preventDefault();
         Store.dispatch({
             type : "add-task",
+            index ,
             payload : newTask
         })
-        setNewTask("");
+
+        setNewTask(initial);
+        
+        console.log("task : ",newTask);
     }
 
     const handleChange = (e) => {
-        const value = e.target.value;
-        setNewTask(value);
+        const elValue = e.target.value;
+        const elName = e.target.name;
+        setNewTask(pre=>{
+            return {...pre,[elName] : elValue}
+        })
     }
 
     return <form className={styles.main} onSubmit={handleSubmit}>
-            <input value={newTask} onChange={handleChange} type="text" required />
+            <input name="name" value={newTask.name} onChange={handleChange} type="text" required />
+            <select name="status" value={newTask.status} onChange={handleChange} >
+                <option value={"completed"}>Completed</option>
+                <option value={"incompleted"}>Incompleted</option>
+            </select>
             <button type="submit">Add task</button>
         </form>
 }

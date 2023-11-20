@@ -1,18 +1,28 @@
 .main{
     padding: 30px;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
 .main > * {
     padding: 10px;
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 600;
 }
 .main > button {
-    font-size: 18px;
+    /* font-size: 18px; */
     padding: 10px 20px;
     font-weight: 600;
     background-color: black;
     color: white;
     border-radius: 10px;
+}
+
+
+@media screen and (max-width:768px) {
+    .main > * {
+        padding: 10px;
+        font-size: 14px;
+    }
 }

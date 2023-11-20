@@ -1,7 +1,7 @@
 .main{
     margin: auto;
     margin-top: 30px;
-    border: 3px solid ;
+    border: 5px solid ;
     max-width: 1328px;
 }
 .cont {
@@ -11,3 +11,13 @@
 .cont > * { 
     margin: 10px;
 }
+
+.button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
